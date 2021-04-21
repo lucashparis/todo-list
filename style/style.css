@@ -1,0 +1,185 @@
+h1{
+    font-size: 50px !important;
+    font-family: Orelega One;
+    text-align: center;
+    margin-bottom: 0px !important;
+    color: white;
+}
+
+.container-fluid{
+    background-color: #5d00bb;
+}
+
+/* Task-Card */
+.task-card{
+    margin-top: 50px;
+    height: 400px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    color: #929292;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 10px;
+}
+textarea{
+    width: 100%;
+    height: 80px;
+    color: #929292;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    border: solid 1px;
+    padding: 0px 0px 0px 10px;
+    resize: none !important;
+}
+
+label{
+    font-family: Orelega One;
+    font-size: 40px;
+    margin: 5px 0px 10px 0px;
+    color: black;
+}
+
+.mini-task-card{
+    margin-top: 50px;
+}
+.completed{
+    height: 177px;
+}
+/* Form check */
+.form-check1{
+    width: 30%;
+    float: left;
+}
+.form-check2{
+    width: 30%;
+    float: right;
+}
+.form-check-label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* icons */
+.trash{
+    color: red;  
+    font-size: 30px;
+}
+.pen{
+    color: #16a2b8;  
+    font-size: 30px;
+    margin: 0px 20px 0px 20px;
+}
+.Details{
+    color: green;  
+    font-size: 30px;
+}
+.floppy{
+    color: green;  
+    font-size: 30px;
+}
+
+/* Grid */
+th{
+    font-size: 20px;
+}
+
+/* Utilities */
+.top40{
+    margin-top: 40px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+.reset{
+    border: none;
+    background: transparent;
+    margin: 0px;
+}
+
+.alert-red{
+    color: red;
+    font-size: 60px;
+    top: 10px;
+    position: relative;
+}
+.alert-green{
+    color: green;
+    font-size: 60px;
+    top: 10px;
+    position: relative;
+}
+
+/* Media queries */
+@media only screen and (max-width: 991px) {
+    label {
+        font-family: Orelega One;
+        font-size: 30px;
+        margin: 5px 0px 10px 0px;
+        color: black;
+    }
+    .alert-green {
+        font-size: 35px !important;
+        color: green;
+        top: 10px;
+        position: relative;
+    }
+    .alert-red {
+        font-size: 35px !important;
+        color: red;
+        top: 10px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    label {
+        font-family: Orelega One;
+        font-size: 30px;
+        margin: 5px 0px 10px 0px;
+        color: black;
+    }
+    .font20 {
+        font-size: 15px !important;
+        color: black;
+    }
+    .form-check-label {
+        font-size: 15px !important;
+        color: black;
+    }
+    .alert-green {
+        font-size: 35px !important;
+        color: green;
+    }
+    .alert-red {
+        font-size: 35px !important;
+        color: red;
+    }
+}
+
+
+@media only screen and (max-width: 491px) {
+    label {
+        font-family: Orelega One;
+        font-size: 20px;
+        margin: 5px 0px 10px 0px;
+        color: black;
+    }
+    .font20 {
+        font-size: 13px !important;
+        color: black;
+    }
+    .form-check-label {
+        font-size: 10px !important;
+        color: black;
+    }
+}
+
